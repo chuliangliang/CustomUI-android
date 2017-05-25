@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ListAc_Root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.customui.chuliangliang.customui.NavigationLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.customui.chuliangliang.customui.NavigationLayout>
+
+    <ListView
+        android:id="@+id/list_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff0000"></ListView>
+
+</LinearLayout>
